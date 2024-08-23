@@ -1,0 +1,338 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOUTH'd COUTURE </title>
+        <h2>Glamour Redefined</h2>
+        <h3></h3>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="about.html">
+     <link rel="shortcut icon" href="images/loggo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+<body>
+  
+  <div id="firstDiv">
+    <div><span style="width: 200px;border-left: 1px solid #e4e4e4;padding: 10px;margin-left: 40px;text-align: center;float: left;border-right: 1px solid #e4e4e4;"><b>Welcome to MOUTH'd COUTURE!</b></span></div>
+    <div><span style="width: 200px;border-left: 1px solid #e4e4e4;padding: 10px;margin-right: 20px; text-align: center;float: right;text-decoration: underline;font-weight: 600;">Call Us: +234 911 57530 77  || +13466405514 </span></div>
+ </div>
+   
+<div id="secondDiv">
+<div style="width: 25%;">
+    <img src="images/loggo.jpg" alt="" width="216px" height="60px" id="img">
+</div>
+<div style="width: 75%;text-align: center;">
+<ul id="ul1">
+    <li><a href="index.html" style="color: #0884cc;"><span><i class="fa fa-caret-right"></i></span> Home</a></li>
+    <li><a href="about.html"><span id="move"><i class="fa fa-caret-right"></i></span> About Us</a></li> 
+   <li class="nav-container">
+      <a id="hoverer" href="services.html"><span id="move" class="hover"><i class="fa fa-caret-right"></i></span> Services +</a>
+       <ul id="dropdown">
+          
+        <li><a href="testing.html"><b>OUR BUSINESS AND SERVICES</b></a></li>
+          <li><a href="inspection.html">Film Productions </a></li>
+          <li><a href="NDT_Training.html">Video Productions</a></li>
+          <li><a href="specialized_Services.html">Clothings  ||  Shoes</a></li>
+          <li><a href="specialized_Services.html">Pure Led </a></li>
+          <li><a href="specialized_Services.html">Mineral Resources</a></li>
+       </ul>
+     </li>
+    <li><a href="projects.html"><span id="move"><i class="fa fa-caret-right"></i></span></a></li>
+   <li class="nav-container">
+      <a id="hoverer"><span id="move" class="hover"><i class="fa fa-caret-right"></i></span> </a> 
+       <ul id="dropdown">
+          <li><a href="quality-policy-objectives.html">Quality Assurance & Objectives</a></li>
+          <li><a href="hse-policy-management-system.html"></a></li>
+       </ul>
+     </li>
+    <li><a href="careers.html"><span id="move"><i class="fa fa-caret-right"></i></span> Modes Of Delivery</a></li>
+    <li><a href="contact.html"><span id="move"><i class="fa fa-caret-right"></i></span> Contact</a></li>
+</ul>
+
+<div onclick="openNav()">
+<div class="container" onclick="myFunction(this)" id="sideNav">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+</div>
+</div>
+</div>
+
+
+<div id="mySidenav" class="sidenav">
+  <div style="margin: 10px;">
+    <img src="images/imageokara15.webp" alt="" width="200px" height="50px">
+  </div>
+  <a href="index.html">Home</a>
+  <a href="about.html">About Us</a>
+
+  <a class="dropdown-item" onclick="toggleDropdown()" style="  background-color: #0884cc;
+  color: #fff;">
+   Services +
+      <div class="sub-menu1" style="display: none;transition: 0.5s;">
+        <p><a href="inspection.html">CLOTHINGS AND SHOES </a></p>
+        <p><a href="testing.html">FILM PRODUCTIONS </a></p>
+        <p><a href="NDT_Training.html">VIDEO PRODUCTIONS</a></p>
+        <p><a href="specialized_Services.html">MINERAL RESOURCES AND PURE LED</a></p>
+      </div>
+    </a>
+ 
+    <script>
+      function toggleDropdown() {
+        const subMenu = document.querySelector('.sub-menu1');
+        subMenu.style.display = (subMenu.style.display === 'none' || subMenu.style.display === '') ? 'block' : 'none';
+      }
+    </script>
+ 
+  <a href="projects.html">Projects</a>
+  <a class="dropdown-item" onclick="toggleDropdown1()" style="  background-color: #0884cc;
+  color: #fff;">
+    Policies +
+       <div class="sub-menu2" style="display: none;transition: 0.5s;">
+        <a href="quality-policy-objectives.html">Quality Assurance</a>
+        <a href="hse-policy-management-system.html"></a>
+       </div>
+     </a>
+  
+     <script>
+       function toggleDropdown1() {
+         const subMenu2 = document.querySelector('.sub-menu2');
+         subMenu2.style.display = (subMenu2.style.display === 'none' || subMenu2.style.display === '') ? 'block' : 'none';
+       }
+     </script>
+  <a href="careers.html">Modes Of Delivery</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<section>
+
+  <div id="second" >
+    <img
+    src="images/imageokara43.jpeg"
+    alt="Image"
+    class="full-width-image"
+    id="rotating-image"
+  />
+  <button class="previous-button" id='button' onclick="goToPrevious()"><</button>
+  <button class="next-button" id='button' onclick="goToNext()">></button>
+  </div>
+
+
+
+  <div id="intro">
+    <div>
+     <p style="color: #0884cc;font-weight: 800;">//About us</p> 
+    <h1>Corporate <br> Overview</h1>  
+     <p><b>Mouth'd Couture is committed to providing high-quality Clothings, Shoes and exceptional services of Film and Video Productions, we aim to meet the diverse needs of Film and Video Productions in the industries.We also give satisfying experience through the provision of Local rentals(this includes those who want to offer their Homes to be used as Film Location and those looking for specific location for their film project). <br>We also give the unique services in the areas of CLOTHINGS AND SHOES to offer the glamour looks you needs.</b>
+</p>       
+    <p><b>We largely major at providing the following services: FILM PRODUCTIONS || VIDEO PRODUCTION || CLOTHINGS || SHOES || MINERAL RESOURCES AND PURE LEDS</b>
+</p>     
+ </div>
+
+    <div ><img src="images/imageokara44.webp" alt="screen" width="100%"></div>
+  </div>
+
+
+
+  <div style="background-color: #E8E8E8;" id="padding">
+<div style="text-align: center;">
+ <h1 style="color: #188BCC;font-size: 36px;line-height: 30px;margin-bottom: 14px;"> Our Services</h1>
+ <p id="pad"> We offer a wide variety of services.
+</p>
+</div>
+
+<div id="homeServices">
+<a href="inspection.html"><div class="image-container">
+  <img src="images/imageokara45.jpeg" alt="">
+  <div style="padding: 10px 20px 20px;"><h1>PRODUCT SALES </h1> 
+<p><b>We sale variety of CLOTHINGS , SHOES and more.</b>
+</p>
+</div>
+ 
+</div></a>
+
+<a href="testing.html"><div class="image-container">
+  <img src="images/imageokara1.webp" alt="">
+  <div style="padding: 10px 20px 20px;"><h1>FILM PRODUCTION SERVICES || VIDEO PRODUCTION SERVICES</h1> 
+<p><b>We provide the services of film and video productions in a professional setup,and also give in to local rental services(this will have those who want to offer their Homes to be used as film location and those looking for specific location to their film project).</b></p>
+</div>
+ </div></a>
+
+<a href="NDT_Training.html"><div class="image-container">
+  <img src="images/imageokara17.jpeg" alt="">
+<div style="padding: 10px 20px 20px;"> <h1> WARRANTY SERVICES || PRODUCT DEMONSTRATIONS</h1>
+<p> <b>We provide warranties for products sold and offering customers the option to purchase extended warranties . We also offer demonstrations of products to help customers understand their features and functionalities better.</b></p>
+</div>
+</div></a>
+
+<a href="specialized_Services.html"><div class="image-container">
+  <img src="images/imageokara4.jpeg" alt="">
+  <div style="padding: 10px 20px 20px;"> 
+  <h1>DELIVERY Services,etc</h1>
+   <p> <b>We provide delivery services for purchased products and offer services film and video productions. We equally give customer support services and payment plans to help customers afford larger purchases.</b></p>
+</div>
+
+</div></a>
+
+
+</div>
+<div style="text-align: center;padding: 20px;"><p style="font-size: 20px;">You can also find <a href="services.html" style="color: black;font-weight: 600;">Our Services</a> to contact us for our solutions!</p></div>
+
+</section>
+
+
+<div class="outer-container">
+<div class="inner-container">
+  <div  id="innerbox1">
+<h3 style="color: #0884cc;">TYPES OF PRODUCTS WE DEAL ON:</h3>
+<p><b>In our CLOTHINGS and SHOES business, we deal with a variety of wears and shoes, including but not limited to:<br>
+
+  1. Italian Wears<br>
+  2. Suites, Shirts, Natives,Jeans, Trousers<br>
+  3. Quality Shoes</p></b>
+  <button>Among others!!!</button>
+</div>
+  <div id="innerbox2">
+    <img src="images/imageokara27.jpeg" alt=""  >
+  </div>
+</div>
+</div>
+
+<div style="background-image: url(images/mekbrand18.png);;background-repeat: no-repeat;background-size:cover;">
+<div id="lastDiv">
+ <h2 style="color: #fff;">Quality  & <span style="color: #188bcc;">Objectives</span></h2> 
+<p>Mouth'd Couture is consistent with exceeding clients’ expectations <br> through fidelity,professionalism,customers-friendly prices,<br>  and quality.</p>
+<button><a href="quality-policy-objectives.html" style="color: white;text-decoration: none;"><b>We Are @ Your Service</b></a></button>
+</div>
+</div>
+
+<div id="flag-container">
+  <h1 style="text-align: center;color: #0884cc;">Our Products and Services</h1>
+  <div id="flagger">
+    <div class="flag-container-inner"></div>
+  </div>
+  <script>
+    
+const countryFlags = ['images/imageokara16.webp', 'images/imageokara10.jpeg', 'images/imageokara45.jpeg', 'images/imageokara36.jpeg', 'images/imageokara44.webp', 'images/imageokara20.webp'];
+
+const flagContainerInner = document.querySelector('.flag-container-inner');
+
+function createFlagElement(flagPath) {
+  const flagElement = document.createElement('img');
+  flagElement.src = flagPath;
+  flagElement.classList.add('flag');
+  return flagElement;
+}
+
+// Duplicate the images to ensure seamless rolling effect
+const duplicatedFlags = [...countryFlags, ...countryFlags];
+
+duplicatedFlags.forEach(flagPath => {
+  const flagElement = createFlagElement(flagPath);
+  flagContainerInner.appendChild(flagElement);
+});
+
+let currentPosition = 0;
+const increment = 0.05; // Adjust the increment value for the desired speed
+
+function rollFlags() {
+  currentPosition -= increment;
+  flagContainerInner.style.transform = `translateX(${currentPosition}%)`;
+
+  if (currentPosition <= -100) {
+    currentPosition = 0;
+  }
+
+  requestAnimationFrame(rollFlags);
+}
+
+// Start the animation loop
+rollFlags();
+  </script>
+</div>
+
+
+<footer>
+  <div id="footDivs" >
+    <div >
+  <div id="innnerfoot" class="inner">
+ <div >
+ <p id="linkz">Quick Links</p> 
+<p><a href="index.html">Home</a></p>
+<p><a href="about.html">About Us</a></p>
+<p><a href="careers.html">Modes Of Delivery</a></p>
+<p><a href="contact.html">Contact</a></p>
+ </div> 
+ <div >
+ <p id="linkz">Services</p> 
+ <p><a href="inspection.html">CLOTHINGS AND SHOES </a></p>
+ <p><a href="testing.html">FILM PRODUCTIONS </a></p>
+ <p><a href="NDT_Training.html">VIDEO PRODUCTIONS</a></p>
+ <p><a href="specialized_Services.html">MINERAL RESOURCES AND PURE LED</a></p>
+ </div> 
+ </div>
+ 
+   <div id="innnerfoot">
+    <div>
+      <p id="linkz">Our Address</p>
+      <div id="seperate">
+        <span id="seperate1"> <i class="fa fa-map-marker" style="font-size:20px;color:#0884cc"></i></span>
+        <span>
+          <p>9050 Cook Road STE 107,</p>  
+          <p>Houston Texas 77099</p> 
+          <p></p>
+        </span>      
+      </div>
+    </div>
+
+    <div>
+      <p id="linkz">Phone & Email</p>  
+  <div id="seperate">
+    <span id="seperate1"> <i class="fa fa-phone" style="font-size:20px;color:#0884cc"></i></span>
+    <span>
+      <p>+234 91157533077</p>
+<p>+13466405514</p></span>     
+  </div>  
+
+  <div id="seperate">
+    <span id="seperate1"> <i class="fa fa-envelope" style="font-size:20px;color:#0884cc"></i></span>
+    <span>
+      <p><a href="http://nicsconsultlimited.com/webmail" target="_blank" style="color:rgb(43, 38, 38);text-decoration: none;">mouth'dcouture@gmail.com
+      </a></p></span> 
+      <span>
+       <p><a href="http://nicsconsultlimited.com/webmail" target="_blank" style="color:rgb(43, 38, 38);text-decoration: none;">mouth'dcouture@gmail.com</a></p> 
+      </span>    
+  </div>  
+
+<p><b>Open Hours:</b></p>
+<p>Mon – Sat: 8am – 5pm </p>
+<p>Sunday: CLOSED</p>
+
+<h1> Social Links</h1>
+
+
+<a href="https://www.instagram.com/mouthdcouture?igsh=cTl2dmtvMWYxdnFp" target="_blank">
+  <img src="images/mekbrand04.png"alt="Instagram" style="width: 50px; height: 50px;"><br><br>
+  
+  <a href="https://x.com/MCounture?t=5BfYlGFGodK56q_qsKC0IA&s=09" target="_blank">
+    <img src="images/mek.png.png" alt="TikTok" style="width: 50px; height: 50px;"><br><br>
+  
+    <a href="https://www.facebook.com/profile.php?id=61559129682826" target="_blank">
+      <img src="images/mekbrand03.png" alt="Facebook" style="width: 50px; height: 50px;"><br><br>
+      
+      <a href="https://www.instagram.com/mouthdcouture?igsh=cTl2dmtvMWYxdnFp" target="_blank">
+        <img src="images/mekbrand04.png" alt="WhatsApp" style="width: 50px; height: 50px;">
+    </a>
+    </div>
+  </div>
+  </div>
+</div>
+  <div id="bottom">
+<p>Copyright © 2024 Mouth'd Couture. All rights reserved.</p>
+  </div>
+</footer>
+    
+</body>
+</html>
